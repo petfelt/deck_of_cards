@@ -3,9 +3,86 @@
   <head>
     <meta charset="utf-8">
     <title>Deck of Cards</title>
-    <script src = 'main.js'></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="container-fluid">
+      <div class="container">
+        <div id="spacer">
+          <button id="reset" type="button">Reset</button>
+          <p id="selected"><b>Currently Selected: </b></p>
+        </div>
+        <div id="deck" class="col-sm-2">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card" src="cards/b1fv.png" alt="card">
+        </div>
+        <div id="col_1" class="col-sm-1">
+          <img class="card" src="cards/c1.png" alt="card">
+        </div>
+        <div id="col_2" class="col-sm-1">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card" src="cards/c1.png" alt="card">
+        </div>
+        <div id="col_3" class="col-sm-1">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card" src="cards/c1.png" alt="card">
+        </div>
+        <div id="col_4" class="col-sm-1">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card" src="cards/c1.png" alt="card">
+        </div>
+        <div id="col_5" class="col-sm-1">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card" src="cards/c1.png" alt="card">
+        </div>
+        <div id="col_6" class="col-sm-1">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card" src="cards/c1.png" alt="card">
+        </div>
+        <div id="col_7" class="col-sm-1">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card_top" src="cards/b1pt.png" alt="card top">
+          <img class="card" src="cards/c1.png" alt="card">
+        </div>
+        <div id="my_player" class="col-sm-3 col-sm-offset-1">
+          <img class="card" src="cards/c1.png" alt="card">
+        </div>
+        <div class="col-sm-1 col-sm-offset-10" id="antispacer">
+          <div id="stack_s" class="stack">
+            <p class="stack_back_black">&spades;</p>
+          </div>
+          <div id="stack_d" class="stack">
+            <p class="stack_back_red">&diams;</p>
+          </div>
+          <div id="stack_c" class="stack">
+            <p class="stack_back_black">&clubs;</p>
+          </div>
+          <div id="stack_h" class="stack">
+            <p class="stack_back_red">&hearts;</p>
+          </div>
+        </div>
 
+
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src = 'main.js'></script>
   </body>
 </html>
